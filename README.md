@@ -1,6 +1,5 @@
 # TegTok: Augmenting Text Generation via Task-specific and Open-world Knowledge
-This repository contains the source code for the _Findings of ACL 2022_ paper [TegTok: Augmenting Text Generation via Task-specific and Open-world Knowledge](https://arxiv.org/pdf/2203.08517.pdf). Chao-Hong Tan, Jia-Chen Gu, Chongyang Tao, Zhen-Hua Ling, Can Xu, Huang Hu, Xiubo Geng, Daxin Jiang. <br>
-Hopefully, code will be released at the beginning of May. Thanks for your patience. <br>
+This repository contains the source code for the _Findings of ACL 2022_ paper [TegTok: Augmenting Text Generation via Task-specific and Open-world Knowledge](https://aclanthology.org/2022.findings-acl.125.pdf). Chao-Hong Tan, Jia-Chen Gu, Chongyang Tao, Zhen-Hua Ling, Can Xu, Huang Hu, Xiubo Geng, Daxin Jiang. <br>
 
 
 ## Introduction
