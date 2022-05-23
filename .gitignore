@@ -166,16 +166,12 @@ dmypy.json
 cython_debug/
 
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
 .history/
 
 __try__.py
-outputs/*
-!outputs/ponet-base-uncased/
+data/*
 logs/*
+runs/*

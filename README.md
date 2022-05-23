@@ -10,8 +10,38 @@ Generating natural and informative texts has been a long-standing problem in NLP
 
 <div align=center><img src="image/automated_evaluation.png" width=80%></div>
 
+## Python environment
+
+The requirements package is in `requirements.txt`.
+
+If you are using nvidia's GPU and CUDA version supports 11.0, you can use the following code to create the desired virtual python environment:
+
+```shell
+conda create -n TegTok python=3.8
+conda activate TegTok
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
+pip install -r requirements.txt
+```
+
+<!-- > If something goes wrong, you can also refer to the `heterMPC.yaml` file to get the package. -->
+
+## Instruction
+
+First, download the datasets from [Google Drive](https://drive.google.com/drive/folders/1S0NpfRsNWj-Xl2B0WFmcSoATqfhyFU9k?usp=sharing) and put the two bz2 files into `data` folder.
+
+Then unpack data files:
+
+```shell
+cd data
+tar -jxvf reddit.tar.bz2
+tar -jxvf squad_nqg.tar.bz2
+```
+
+Please refer to the shell file under the `run_shell` folder.
 
 ## Update
+[20220523] Upload model source codes and generation results. Evaluation metrics will be updated later.
+
 Please keep an eye on this repository if you are interested in our work.
 Feel free to contact us ({chtan, gujc}@mail.ustc.edu.cn) or open issues.
 

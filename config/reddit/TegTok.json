@@ -1,0 +1,17 @@
+{
+  "name": "basic_config",
+  "dataloader": "vae",
+  "dataloader_class": "BaseDataset",
+  "helper": "vae",
+  "model": "TegTok",
+  "model_class": "RAGModel",
+  "base_modify_class": "bart_vae",
+  "dataroot": "data/reddit",
+  "model_name_or_path": "facebook/bart-base",
+
+  "history_max_utterances": 1000000,
+  "history_max_tokens": 128,
+
+  "optimizer": "AdamW",
+  "lr_scheduler": "normal"
+}

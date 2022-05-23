@@ -1,0 +1,9 @@
+torch == 1.7.1
+pytorch-ignite == 0.4.6
+transformers ~= 3.0
+datasets == 1.11.0
+tensorboardX == 1.8
+spacy
+nltk
+bert_score
+gensim
