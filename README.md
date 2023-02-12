@@ -38,8 +38,16 @@ tar -jxvf squad_nqg.tar.bz2
 
 Please refer to the shell file under the `run_shell` folder.
 
+## Evaluation
+
+The Reddit dialogue generation task can be evaluated by scripts `run_shell/cal_score.sh`.
+
+The `squad_nqg` task can be evaluated by the tools offer by [xinyadu/nqg: neural question generation for reading comprehension](https://github.com/xinyadu/nqg).
+
 ## Update
-[20220523] Upload model source codes and generation results. Evaluation metrics will be updated later.
+[20230213] Evaluation metrics are updated.
+
+[20220523] Upload model source codes and generation results. ~~Evaluation metrics will be updated later.~~
 
 Please keep an eye on this repository if you are interested in our work.
 Feel free to contact us ({chtan, gujc}@mail.ustc.edu.cn) or open issues.
@@ -47,20 +55,26 @@ Feel free to contact us ({chtan, gujc}@mail.ustc.edu.cn) or open issues.
 ## Cite
 
 ```bibtex
-@inproceedings{DBLP:journals/corr/abs-2203-08517,
+@inproceedings{DBLP:conf/acl/TanGTLXHGJ22,
   author    = {Chao{-}Hong Tan and
                Jia{-}Chen Gu and
                Chongyang Tao and
                Zhen{-}Hua Ling and
                Can Xu and
                Huang Hu and
-               Xiubo Geng and 
+               Xiubo Geng and
                Daxin Jiang},
-  title     = {{TegTok}: Augmenting Text Generation via Task-specific and Open-world Knowledge},
-  booktitle = {Findings of the 60th Annual Meeting of the Association for Computational
-               Linguistics, {ACL} 2022, Dublin, Ireland, May 22-27, 2022},
+  editor    = {Smaranda Muresan and
+               Preslav Nakov and
+               Aline Villavicencio},
+  title     = {TegTok: Augmenting Text Generation via Task-specific and Open-world
+               Knowledge},
+  booktitle = {Findings of the Association for Computational Linguistics: {ACL} 2022,
+               Dublin, Ireland, May 22-27, 2022},
+  pages     = {1597--1609},
   publisher = {Association for Computational Linguistics},
   year      = {2022},
-  url       = {https://arxiv.org/pdf/2203.08517.pdf},
+  url       = {https://doi.org/10.18653/v1/2022.findings-acl.125},
+  doi       = {10.18653/v1/2022.findings-acl.125},
 }
 ```
