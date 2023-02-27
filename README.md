@@ -42,7 +42,7 @@ Please refer to the shell file under the `run_shell` folder.
 
 The Reddit dialogue generation task can be evaluated by scripts `run_shell/cal_score.sh`.
 
-The `squad_nqg` task can be evaluated by the tools offer by [xinyadu/nqg: neural question generation for reading comprehension](https://github.com/xinyadu/nqg).
+The `squad_nqg` task can be evaluated by the tools offer by [xinyadu/nqg: neural question generation for reading comprehension](https://github.com/xinyadu/nqg). First you should convert the output format to `xinyadu/nqg` version using the code `analyse/convert_squad_nqg_output_format.py`.
 
 ## Update
 [20230213] Evaluation metrics are updated.
